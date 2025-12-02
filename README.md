@@ -12,7 +12,7 @@ These prompts are designed to simulate a full Software Development Life Cycle (S
 ```
 @create_brief.md
 
-We are building an application to help dungeon masters plan their D&D campaigns called Dragonroll. It will include tools like a random map generator, NPC generator, and loot generator.
+We are building an application to help people quickly gather opinions from a group called QuickPoll. It will include tools like a Simple Poll Creation Form, a Unique Shareable Voting Link Generator, and a Basic Real-Time Results Display.
 ```
 
 ## Plan Feature
@@ -22,7 +22,7 @@ We are building an application to help dungeon masters plan their D&D campaigns 
 ```
 @plan_feature.md
 
-We want to add a new page that is going to be our NPC generator. It should use the OpenAI API to generate descriptions and names, and DALL-E for images.
+We want to add a feature to prevent users from voting multiple times on the same poll. It should track votes based on the user's IP address. When a user tries to vote, the system should check if that IP has already submitted a vote for this specific poll ID. If they have, display a message saying 'You have already voted on this poll' instead of recording the vote.
 ```
 
 ## Code Review
